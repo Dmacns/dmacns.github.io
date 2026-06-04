@@ -57,4 +57,4 @@ MIT License
 联系我们
 📧 ytliuxm@foxmail.com
 
-© 2026 DMACNS · 烟台市鼎脉数字科技有限公司（筹）
+© 2026 DMACNS · 烟台市鼎脉数字科技有限公司
