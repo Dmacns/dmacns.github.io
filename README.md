@@ -41,16 +41,14 @@ DISCOVER → NEGOTIATE → COMMIT → LOCK → EXECUTE → ARBITRATE
 |------|------|
 | **1088** | B2B 供应链交易网络 |
 | **钧汇** | 黄金珠宝交易平台 |
-| **Skill** | Agent 生态渗透层 |
-| **鸿蒙** | 手机原生移动端工作台 |
+| **Skill** | Agent 生态层 |
+| **手机** | 原生移动端工作台 |
 
 ---
 
 ## 联系
 
 烟台市鼎脉数字科技有限公司  
-中国（山东）自由贸易试验区烟台片区  
-八角湾国际科创中心 C 栋 501C  
 [ytliuxm@foxmail.com](mailto:ytliuxm@foxmail.com)
 
 ---
