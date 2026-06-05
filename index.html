@@ -1,132 +1,126 @@
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Decentralized Multi-Agent Collaborative Commerce Network System</title>
+    <title>迪迈科斯 DMACNS｜去中心化多智能体协同网络平台</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Microsoft YaHei', sans-serif;
             background: #0a0a1a;
             color: #e0e0e0;
             display: flex;
             justify-content: center;
-            align-items: center;
             min-height: 100vh;
-            padding: 20px;
+            padding: 40px 20px 60px;
         }
-        .container {
-            max-width: 700px;
-            text-align: center;
-        }
+        .container { max-width: 720px; width: 100%; text-align: center; }
         .logo {
-            font-size: 64px;
-            font-weight: 800;
-            letter-spacing: 4px;
+            font-size: 48px; font-weight: 800; letter-spacing: 2px;
             background: linear-gradient(135deg, #00d4ff, #7b2ff7);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 16px;
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            margin-bottom: 8px;
         }
-        .subtitle {
-            font-size: 20px;
-            color: #a0a0b8;
-            margin-bottom: 12px;
+        .subtitle { font-size: 18px; color: #a0a0b8; margin-bottom: 4px; }
+        .subtitle-en { font-size: 13px; color: #606078; letter-spacing: .5px; margin-bottom: 28px; }
+
+        .section { margin-bottom: 40px; }
+        .section h2 {
+            font-size: 15px; color: #00d4ff; text-align: left;
+            border-left: 3px solid #00d4ff; padding-left: 12px; margin-bottom: 16px;
         }
-        .mission {
-            font-size: 16px;
-            color: #707088;
-            max-width: 500px;
-            margin: 0 auto 40px;
-            line-height: 1.6;
-        }
+        .section p { font-size: 14px; color: #808098; line-height: 1.8; text-align: left; }
+
         .cards {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 16px;
-            margin-bottom: 40px;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 12px; margin-bottom: 40px;
         }
         .card {
-            background: #12122a;
-            border: 1px solid #1e1e3a;
-            border-radius: 12px;
-            padding: 24px 16px;
+            background: #12122a; border: 1px solid #1e1e3a;
+            border-radius: 12px; padding: 22px 16px; text-align: center;
         }
-        .card .number {
-            font-size: 32px;
-            font-weight: 700;
-            color: #00d4ff;
+        .card .number { font-size: 28px; font-weight: 700; color: #00d4ff; }
+        .card .label { font-size: 12px; color: #808098; margin-top: 4px; }
+
+        .sub-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px; margin-bottom: 40px;
         }
-        .card .label {
-            font-size: 13px;
-            color: #808098;
-            margin-top: 4px;
+        .sub-card {
+            background: #12122a; border: 1px solid #1e1e3a;
+            border-radius: 10px; padding: 18px 14px; text-align: center;
         }
+        .sub-card .name { font-size: 17px; font-weight: 700; color: #d4a853; }
+        .sub-card .desc { font-size: 11px; color: #707088; margin-top: 4px; }
+
         .links {
-            display: flex;
-            gap: 16px;
-            justify-content: center;
-            flex-wrap: wrap;
+            display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px;
         }
         .links a {
-            color: #00d4ff;
-            text-decoration: none;
-            padding: 10px 24px;
-            border: 1px solid #1e1e3a;
-            border-radius: 8px;
-            font-size: 14px;
-            transition: all 0.2s;
+            color: #00d4ff; text-decoration: none; padding: 10px 22px;
+            border: 1px solid #1e1e3a; border-radius: 8px; font-size: 13px;
+            transition: all .2s;
         }
-        .links a:hover {
-            background: #00d4ff;
-            color: #0a0a1a;
-            border-color: #00d4ff;
-        }
-        .footer {
-            margin-top: 40px;
-            font-size: 12px;
-            color: #505068;
-        }
+        .links a:hover { background: #00d4ff; color: #0a0a1a; border-color: #00d4ff; }
+
+        .footer { font-size: 11px; color: #505068; }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="logo">DMACNS</div>
-        <div class="subtitle">Decentralized Multi-Agent Collaborative Commerce Network System</div>
-        <div class="mission">
-            让AI智能体安全地做生意<br>
-            坏账为零，结算毫秒级，人只需要批准
+        <div class="logo">迪迈科斯 · DMACNS</div>
+        <div class="subtitle">去中心化多智能体协同网络平台</div>
+        <div class="subtitle-en">Decentralized Multi-Agent Collaborative Commerce Network System</div>
+
+        <div class="section">
+            <h2>迪迈科斯是什么</h2>
+            <p>
+                DMACNS（迪迈科斯）是一个去中心化多智能体协同网络平台。
+                让 AI Agent 之间自主完成发现、协商、托管、结算的全流程交易。
+                不是另一个电商平台 —— 是电商平台底层的商业协议。
+            </p>
         </div>
 
         <div class="cards">
-            <div class="card">
-                <div class="number">0.5%</div>
-                <div class="label">协议服务费</div>
-            </div>
-            <div class="card">
-                <div class="number">0</div>
-                <div class="label">坏账风险</div>
-            </div>
-            <div class="card">
-                <div class="number">60+</div>
-                <div class="label">应用场景</div>
-            </div>
-            <div class="card">
-                <div class="number">5层</div>
-                <div class="label">协议栈架构</div>
+            <div class="card"><div class="number">0.5%</div><div class="label">协议服务费</div></div>
+            <div class="card"><div class="number">6</div><div class="label">协议原语</div></div>
+            <div class="card"><div class="number">P2P</div><div class="label">去中心化</div></div>
+            <div class="card"><div class="number">e-CNY</div><div class="label">数字人民币结算</div></div>
+        </div>
+
+        <div class="section">
+            <h2>核心能力</h2>
+            <p>
+                AI 代理驱动的六原语协议 —<br>
+                <span style="color:#d4a853">DISCOVER → NEGOTIATE → COMMIT → LOCK → EXECUTE → ARBITRATE</span><br>
+                智能合约链上托管 · NAT 穿透 P2P 通信 · 五维链上信用 · 原子结算<br>
+                B2B 跨境贸易到 C 端消费零售，一个协议全栈覆盖
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>子项目</h2>
+            <div class="sub-grid">
+                <div class="sub-card"><div class="name">1088</div><div class="desc">B2B 供应链交易网络</div></div>
+                <div class="sub-card"><div class="name">钧汇</div><div class="desc">黄金珠宝交易平台</div></div>
+                <div class="sub-card"><div class="name">Skill</div><div class="desc">Agent 生态渗透层</div></div>
+                <div class="sub-card"><div class="name">鸿蒙</div><div class="desc">手机原生移动端工作台</div></div>
             </div>
         </div>
 
         <div class="links">
             <a href="https://github.com/dmacns/protocol">协议规范</a>
             <a href="https://github.com/dmacns/whitepaper">技术白皮书</a>
-            <a href="https://github.com/dmacns/demo">演示Demo</a>
+            <a href="https://github.com/dmacns/demo">演示 Demo</a>
             <a href="mailto:ytliuxm@foxmail.com">联系我们</a>
         </div>
 
         <div class="footer">
-            &copy; 2026 DMACNS &middot; 烟台市鼎脉数字科技有限公司
+            &copy; 2026 迪迈科斯 DMACNS &middot; 烟台市鼎脉数字科技有限公司
         </div>
     </div>
 </body>
